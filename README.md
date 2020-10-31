@@ -18,6 +18,7 @@ Pinterest Clone
 ∙	<a>HTML</a><br>
 ∙	<a>CSS</a><br>
 ∙	<a>SASS</a><br>
+∙	<a>JAVASCRIPT</a><br>
 
 <br>
 <h2 id="autor">✨ Autor</h2>
