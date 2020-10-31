@@ -1,5 +1,5 @@
-<p align="center" size="550"> 
-<img src="./assets/logo.svg" widht="500">
+<p align="center"> 
+<img src="./assets/logo.svg" widht="600">
 Pinterest Clone
 </p>
 

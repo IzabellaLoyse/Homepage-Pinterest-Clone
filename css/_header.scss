@@ -1,0 +1,68 @@
+@mixin displayFlexJustify($display, $justify, $align) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+
+header{
+  @include displayFlexJustify(flex,space-between,center);
+  padding: 15px 20px 15px 20px;
+
+  h3{
+    color: $red;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 155px;
+  }
+  nav{
+   display: flex;
+   align-items: center;
+
+   ul{
+     li{
+       padding: 16px;
+       a{
+        text-decoration: none;
+        font-size: 16px;
+        color: $black;
+        font-weight: 700;
+
+        &:hover{
+          text-decoration: underline;
+        }
+
+       }
+     }
+   }
+   .buttons{
+     display: flex;
+     margin-left: 24px;
+
+     button{
+       @include displayFlexJustify(flex,center,center);
+       font-size: 16px;
+       font-weight: 700;
+       padding: 11px 12px;
+       border-radius: 24px;
+       border: none;
+     }
+
+     .login{
+       background:$red;
+       color: $white;
+     }
+
+     .signup{
+       margin-left: 16px;
+       background: $gray-light;
+     }
+   }
+  }
+}
+
+@media (min-width:785px){
+  h3{
+    margin-right: 575px;
+  }
+}
